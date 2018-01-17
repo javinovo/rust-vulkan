@@ -1,0 +1,7 @@
+[package]
+name = "hello_vulkan"
+version = "0.1.0"
+authors = ["Javier Novo <javinovo@hotmail.com>"]
+
+[dependencies]
+vulkano = "0.7.2"
