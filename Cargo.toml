@@ -5,3 +5,4 @@ authors = ["Javier Novo <javinovo@hotmail.com>"]
 
 [dependencies]
 vulkano = "0.7.2"
+image = "0.14"
