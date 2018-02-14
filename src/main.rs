@@ -1,6 +1,7 @@
 #[macro_use]
 extern crate vulkano_shader_derive;
 
+#[macro_use]
 extern crate vulkano;
 use vulkano as vk;
 
@@ -9,6 +10,8 @@ use lib::*;
 
 mod compute;
 mod mandelbrot;
+mod render;
+mod render_win;
 
 fn main() {
     
@@ -59,5 +62,7 @@ fn main() {
 
     compute::run(&device, &queue);
     mandelbrot::run(&device, &queue, "fractal.png");
+    render::run(&device, &queue, "triangle.png");
+    //render_win::run();
 }
 

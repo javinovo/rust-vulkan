@@ -7,3 +7,5 @@ authors = ["Javier Novo <javinovo@hotmail.com>"]
 vulkano = "0.7.2"
 image = "0.14"
 vulkano-shader-derive = "0.7"
+winit = "0.7"
+vulkano-win = "0.7"
